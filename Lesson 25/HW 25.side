@@ -1,0 +1,540 @@
+{
+  "id": "6736e1f7-d23a-4bdc-8028-6001c401f611",
+  "version": "2.0",
+  "name": "HW 25",
+  "url": "https://www.reserved.com/",
+  "tests": [{
+    "id": "039c7d0b-2d48-4d84-a927-6e99ec434ff9",
+    "name": "Checking the possibility of adding a product to the cart",
+    "commands": [{
+      "id": "675bd006-7969-4169-a923-64d919dfa826",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51c7f451-66a7-43c0-94e2-ee66784b7441",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "680x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b24e414-599c-4182-8db3-1945ff428e41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburger__Image-sc-1m0l526-2",
+      "targets": [
+        ["css=.hamburger__Image-sc-1m0l526-2", "css:finder"],
+        ["xpath=//img[@alt='menu']", "xpath:img"],
+        ["xpath=//div[@id='headerWrapper']/div/button/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5ffcec-8ae4-4e0c-86e5-e32161277c27",
+      "comment": "",
+      "command": "click",
+      "target": "id=nm254",
+      "targets": [
+        ["id=nm254", "id"],
+        ["css=#nm254", "css:finder"],
+        ["xpath=//div[@id='nm254']", "xpath:attributes"],
+        ["xpath=//div[@id='nm-tree-view']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "591dc052-cd57-4e89-8f1f-bacbdaaed8a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=nm3979",
+      "targets": [
+        ["id=nm3979", "id"],
+        ["css=#nm3979", "css:finder"],
+        ["xpath=//div[@id='nm3979']", "xpath:attributes"],
+        ["xpath=//div[@id='nm-tree-view']/div[3]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f56e4675-e641-4c64-9a27-da770025d114",
+      "comment": "",
+      "command": "click",
+      "target": "id=nm30635",
+      "targets": [
+        ["id=nm30635", "id"],
+        ["linkText=Осіння пропозиція", "linkText"],
+        ["css=#nm30635", "css:finder"],
+        ["xpath=//a[@id='nm30635']", "xpath:attributes"],
+        ["xpath=//div[@id='nm-tree-view']/div[3]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.reserved.com/ua/uk/cholovikam/odiah/sezonna-propozycia')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c7d7beb-408f-45eb-8cd1-d17e003ab6da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dlfnuX:nth-child(2) .sc-gKseQn",
+      "targets": [
+        ["css=.sc-dlfnuX:nth-child(2) .sc-gKseQn", "css:finder"],
+        ["xpath=//img[@alt='Технічний жилет із переробленої тканини PREMIUM - зелений - RESERVED']", "xpath:img"],
+        ["xpath=//section[@id='categoryProducts']/article/figure/a/img", "xpath:idRelative"],
+        ["xpath=//figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb7138e-0ec3-4eb6-bd53-14bdbe9f9a8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size-selected > span > span",
+      "targets": [
+        ["css=.size-selected > span > span", "css:finder"],
+        ["xpath=//div[@id='productContainer']/section/section[5]/div/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//section[5]/div/div[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac7a52b-da10-4a29-b184-52d3c01a6ddc",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .size-name > span",
+      "targets": [
+        ["css=li:nth-child(3) > .size-name > span", "css:finder"],
+        ["xpath=//div[@id='productContainer']/section/section[5]/div/div[3]/div/div[2]/div/ul/li[3]/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4984f10-820b-4a22-a2a0-44c533a77130",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-crrszt",
+      "targets": [
+        ["css=.sc-crrszt", "css:finder"],
+        ["xpath=//div[@id='productContainer']/section/section[6]/button", "xpath:idRelative"],
+        ["xpath=//section[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Додати у кошик')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "682883c9-2d7b-4ca9-b033-912e129e2358",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36b5e772-ac6b-46ac-9fec-56275659351e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Перейти у кошик",
+      "targets": [
+        ["linkText=Перейти у кошик", "linkText"],
+        ["css=.go-to-cart", "css:finder"],
+        ["xpath=//a[contains(text(),'Перейти у кошик')]", "xpath:link"],
+        ["xpath=//div[@id='ModalRoot-8clmw0uqame']/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.reserved.com/ua/uk/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[7]/div/div[2]/div/div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Перейти у кошик')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3fbb72a-e608-462b-8774-4f9deb53b7ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row__Row-sc-1d4xdwk-0:nth-child(1) .product-list__Image-mh8fks-1",
+      "targets": [
+        ["css=.row__Row-sc-1d4xdwk-0:nth-child(1) .product-list__Image-mh8fks-1", "css:finder"],
+        ["xpath=//img[@alt='LADIES` DRESS']", "xpath:img"],
+        ["xpath=//div[@id='cartRoot']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46ddac58-fd2d-47b8-9037-c7f1d2b9bf30",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.row__Row-sc-1d4xdwk-0:nth-child(1) .product-list__Image-mh8fks-1",
+      "targets": [
+        ["css=.row__Row-sc-1d4xdwk-0:nth-child(1) .product-list__Image-mh8fks-1", "css:finder"],
+        ["xpath=//img[@alt='LADIES` DRESS']", "xpath:img"],
+        ["xpath=//div[@id='cartRoot']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "59388287-4a49-43d1-9a7a-b9e27ab5a277",
+    "name": "Checking the operation of the main logo button",
+    "commands": [{
+      "id": "27856379-5dff-4df0-ae57-7be87b9893f1",
+      "comment": "",
+      "command": "open",
+      "target": "/special/store/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3651fa8-de2b-47ba-811e-224181b913bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "680x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e82edfb-ec0a-4851-b332-b83c4a8c7f68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo",
+      "targets": [
+        ["css=.logo", "css:finder"],
+        ["xpath=//img[@alt='Reserved']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a613c17-6b45-4205-a70e-6bb11c7cc001",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Україна / Ukraine",
+      "targets": [
+        ["linkText=Україна / Ukraine", "linkText"],
+        ["css=li:nth-child(27) > .cart", "css:finder"],
+        ["xpath=//a[contains(text(),'Україна / Ukraine')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/uk/')]", "xpath:href"],
+        ["xpath=//li[27]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Україна / Ukraine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2fb32b3-e27c-4178-9bf1-262c7dcd5f65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-header__HeaderTitle-qbclzk-3 img",
+      "targets": [
+        ["css=.page-header__HeaderTitle-qbclzk-3 img", "css:finder"],
+        ["xpath=//img[@alt='Reserved']", "xpath:img"],
+        ["xpath=//div[@id='headerWrapper']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5eddf366-0479-43f4-992d-416d7e96ce49",
+    "name": "Checking the possibility of changing the country",
+    "commands": [{
+      "id": "8125367f-70a3-4f5f-b4d2-a6724b5cc362",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da2e027f-3f23-47fd-a65a-31ddb9b39399",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "680x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cd57548-d513-49c2-8f39-71ebe6a1340e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,605.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4e9039e-8b3c-4924-b270-f82bfdf0b0bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Україна (Ukraine)",
+      "targets": [
+        ["linkText=Україна (Ukraine)", "linkText"],
+        ["css=li > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Україна (Ukraine)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.reserved.com/special/store/')]", "xpath:href"],
+        ["xpath=//div/ul/li/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'  Україна (Ukraine)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45c8e942-12ed-4f4f-9602-c67fb400ab98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.multi:nth-child(19) > p",
+      "targets": [
+        ["css=.multi:nth-child(19) > p", "css:finder"],
+        ["xpath=//li[19]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Polska / Poland: ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "027d0cac-575b-45d1-9752-862b7633e652",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Україна / Ukraine",
+      "targets": [
+        ["linkText=Україна / Ukraine", "linkText"],
+        ["css=li:nth-child(27) > .cart", "css:finder"],
+        ["xpath=//a[contains(text(),'Україна / Ukraine')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/uk/')]", "xpath:href"],
+        ["xpath=//li[27]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Україна / Ukraine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d581cb5-816d-468b-b3eb-0432bfa826e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Україна (Ukraine)",
+      "targets": [
+        ["linkText=Україна (Ukraine)", "linkText"],
+        ["css=li > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Україна (Ukraine)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.reserved.com/special/store/')]", "xpath:href"],
+        ["xpath=//div/ul/li/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'  Україна (Ukraine)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca9566b0-159b-48fb-a57a-8c02b636c711",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=United Kingdom",
+      "targets": [
+        ["linkText=United Kingdom", "linkText"],
+        ["css=li:nth-child(26) > .cart", "css:finder"],
+        ["xpath=//a[contains(text(),'United Kingdom')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/gb/en/')]", "xpath:href"],
+        ["xpath=//li[26]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'United Kingdom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8b0325e2-b266-4dd7-9c42-f9007cf6a712",
+    "name": "Check the possibility of adding promotional offers to the cart",
+    "commands": [{
+      "id": "987294a3-1a36-4f54-9152-c9402c5feda7",
+      "comment": "",
+      "command": "open",
+      "target": "/gb/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4610d75-46ac-4ad9-8152-8048b193799d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45a104fa-3706-42ce-9732-3aed29bba416",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=20% off ladies' dresses with code: RE20GB",
+      "targets": [
+        ["linkText=20% off ladies' dresses with code: RE20GB", "linkText"],
+        ["css=.promo-bar__PromoMessage-daiwfi-2 a", "css:finder"],
+        ["xpath=//div[@id='promoBarWrapper']/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.reserved.com/gb/en/woman/clothes/dresses')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d047fb64-4b05-4aa1-b075-2cfd910d8658",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dlfnuX:nth-child(4) .sc-gKseQn",
+      "targets": [
+        ["css=.sc-dlfnuX:nth-child(4) .sc-gKseQn", "css:finder"],
+        ["xpath=//img[@alt='LADIES` DRESS - multicolor - RESERVED']", "xpath:img"],
+        ["xpath=//section[@id='categoryProducts']/article[3]/figure/a/img", "xpath:idRelative"],
+        ["xpath=//article[3]/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b84a341-a76a-409e-8f1c-7b6e6f558ae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=span > span",
+      "targets": [
+        ["css=span > span", "css:finder"],
+        ["xpath=//div[@id='productContainer']/section/div/section[4]/div/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc2ca056-5022-448a-a72b-64c3017d0990",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13f1ab3a-2bae-4ddb-bea4-422690251961",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > .size-name > span",
+      "targets": [
+        ["css=li:nth-child(4) > .size-name > span", "css:finder"],
+        ["xpath=//div[@id='productContainer']/section/div/section[4]/div/div[3]/div/div[2]/div/ul/li[4]/span/span", "xpath:idRelative"],
+        ["xpath=//li[4]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2394a240-d6ce-43f5-bd80-c246c71b1396",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary__PrimaryButtonComponent-sc-1pct4vx-0",
+      "targets": [
+        ["css=.primary__PrimaryButtonComponent-sc-1pct4vx-0", "css:finder"],
+        ["xpath=//div[@id='productContainer']/section/div/section[5]/button", "xpath:idRelative"],
+        ["xpath=//section[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to bag')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d0ed44-c026-48de-afae-9af6cb767277",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e3f0ec4-5fd7-4e60-8772-55213d4e4d4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to your bag",
+      "targets": [
+        ["linkText=Go to your bag", "linkText"],
+        ["css=.go-to-cart", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to your bag')]", "xpath:link"],
+        ["xpath=//div[@id='ModalRoot-naf1p6p8f3']/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.reserved.com/gb/en/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to your bag')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77ef59ea-41da-49d0-a416-b9d8a14d8158",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.primary__PrimaryButtonComponent-sc-1pct4vx-0",
+      "targets": [
+        ["css=.primary__PrimaryButtonComponent-sc-1pct4vx-0", "css:finder"],
+        ["xpath=//div[@id='cartRoot']/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3608b2bd-3f3b-4e8c-a9c3-95c1e57d5111",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary__PrimaryButtonComponent-sc-1pct4vx-0",
+      "targets": [
+        ["css=.primary__PrimaryButtonComponent-sc-1pct4vx-0", "css:finder"],
+        ["xpath=//div[@id='cartRoot']/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8a9fee6f-8927-4a4e-99b6-7e3514a58524",
+    "name": "Check the possibility to subscribe to the newsletter",
+    "commands": [{
+      "id": "e56be2c7-a02c-41b7-a09e-25bfbb46e3f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.reserved.com/gb/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba812a67-18ee-4183-b061-53531b2cb0ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04da29d9-8cae-4daf-aea9-eec19d90a827",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active .video-desktop",
+      "targets": [
+        ["css=.active .video-desktop", "css:finder"],
+        ["xpath=//div[@id='page']/div/section/div[2]/div/div/div[3]/div/a/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a56fefd-3ac2-4ad0-9747-accc49f7bbbe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active .video-desktop",
+      "targets": [
+        ["css=.active .video-desktop", "css:finder"],
+        ["xpath=//div[@id='page']/div/section/div[2]/div/div/div[3]/div/a/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc7ee770-d007-42d1-a6a3-d8cdd9c267ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-newsletter-email",
+      "targets": [
+        ["css=.js-newsletter-email", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/form/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd2ce35-1fc1-426c-be54-d29deab9ef27",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-newsletter-email",
+      "targets": [
+        ["css=.js-newsletter-email", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div/form/div/label/input", "xpath:position"]
+      ],
+      "value": "marinaderksen177@gmail.com"
+    }, {
+      "id": "2ac3a03c-3414-475e-b868-c2a84d2a19b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox-area",
+      "targets": [
+        ["css=.checkbox-area", "css:finder"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a82593-a312-4f88-b4af-38f53f05a3cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-secondary",
+      "targets": [
+        ["css=.btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "16a91179-d96c-479e-92e6-830796ea7cdf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["039c7d0b-2d48-4d84-a927-6e99ec434ff9"]
+  }],
+  "urls": ["https://www.reserved.com/"],
+  "plugins": []
+}
